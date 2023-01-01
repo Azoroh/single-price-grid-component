@@ -1,0 +1,59 @@
+:root {
+  /* ### Primary */
+
+  --Cyan: hsl(179, 62%, 43%);
+  --Bright-Yellow: hsl(71, 73%, 54%);
+
+  /* ### Neutral */
+
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+body {
+  background-color: var(--Light-Gray);
+  color: hsl(205, 14%, 49%);
+}
+.muted-text {
+  color: hsl(205, 14%, 49%);
+}
+
+.join-us {
+  background-color: white;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.join-us-heading {
+  color: var(--Cyan);
+}
+.join-us-title {
+  color: var(--Bright-Yellow);
+}
+
+.monthly-sub {
+  background-color: var(--Cyan);
+  border-radius: 0 0 0 1rem;
+}
+
+.why-us {
+  background-color: hsl(179, 56%, 47%);
+  border-radius: 0 0 1rem 0;
+}
+
+@media (max-width: 767px) {
+  .monthly-sub {
+    border-radius: 0 0 0 0;
+  }
+  .why-us {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+.sign-up {
+  background-color: hsl(71, 73%, 54%);
+}
+.subs {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
